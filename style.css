@@ -1,0 +1,109 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 300;
+}
+
+.flex-container {
+  display: flex;
+  background-color: wheat;
+}
+
+.flex-container > div {
+  background-color: wheat;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.logo {
+  display: flex;
+  flex-grow: 4;
+}
+.nav-text {
+  display: flex;
+  flex-grow: 2;
+  align-self: center;
+  height: 100px;
+}
+.nav-text > a {
+  padding: 10px;
+  margin: 25px;
+  background-color: orangered;
+  color: white;
+  text-decoration: none;
+  height: 35px;
+}
+.ceo-img {
+  width: 30%;
+  text-align: center;
+}
+
+.ceo-bio {
+  width: 70%;
+}
+.brand {
+  justify-content: center;
+  align-self: center;
+  background-color: wheat;
+  color: orangered;
+}
+.brand img {
+  width: 30%;
+  border: 1px solid;
+}
+.brand1 {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  padding: 15px;
+}
+.brand1 img {
+  border: 1px solid;
+  border-radius: 5%;
+}
+.brand2 {
+  margin-top: 80px;
+  margin-right: 60px;
+  display: flex;
+  justify-content: space-around;
+}
+.brand2 img {
+  border: 1px solid;
+  border-radius: 5%;
+}
+.footer {
+  border: 1px solid;
+  width: 100%;
+  align-self: center;
+  background-color: orangered;
+  color: white;
+}
+.adress {
+  border: 1px solid;
+  background-color: orangered;
+  color: white;
+  width: 30%;
+}
+
+.x {
+  background-color: orangered;
+  text-align: center;
+  width: 33.33%;
+}
+
+.x > a {
+  padding: 10px;
+  margin: 25px;
+  background-color: orangered;
+  color: white;
+  text-decoration: none;
+  height: 35px;
+}
+
+a:hover {
+  background-color: white;
+  color: orangered;
+  transition: 1100ms;
+}
